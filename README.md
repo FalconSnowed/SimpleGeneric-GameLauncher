@@ -17,7 +17,8 @@ Includes **auto game path memory**, **custom button styles**, and an extensible 
 
 ## 📸 Preview
 
-![Launcher Screenshot](https://raw.githubusercontent.com/FalconSnowed/SimpleGeneric-GameLauncher/main/Assets/preview.jpg)  
+![image](https://github.com/user-attachments/assets/ce4236a6-bf56-499f-913b-b92cb8b1ea6e)
+
 *(Example UI — logo and background customizable)*
 
 ---
