@@ -33,16 +33,6 @@ Includes **auto game path memory**, **custom button styles**, and an extensible 
 
 ---
 
-## 🗂 File Structure
-
-📁 SimpleGeneric-GameLauncher/
-├── App.xaml + App.xaml.cs
-├── MainWindow.xaml + MainWindow.xaml.cs
-├── LauncherConfig.cs
-├── Assets/ <-- Add your logo + background here
-├── config.json <-- Generated at runtime
----
-
 ## 🔮 Next Up (optional ideas)
 
 - 🌌 Splash screen with fade-in animation
