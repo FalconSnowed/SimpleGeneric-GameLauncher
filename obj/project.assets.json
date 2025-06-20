@@ -1,0 +1,181 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "CommonWin32/1.1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net20/CommonWin32.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net20/CommonWin32.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "ModernWPF/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonWin32": "1.1.4.2"
+        },
+        "compile": {
+          "lib/net40-Client/ModernWPF.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net40-Client/ModernWPF.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommonWin32/1.1.4.2": {
+      "sha512": "x0SfXQJHEuReslRLZiGnqbuL0RFcA7k9TufDWDIlKff4mmel61VzDiUL0kOHZCAQb7r9TKxwuoceE02fPRIsww==",
+      "type": "package",
+      "path": "commonwin32/1.1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commonwin32.1.1.4.2.nupkg.sha512",
+        "commonwin32.nuspec",
+        "lib/CommonWin32.pdb",
+        "lib/net20/CommonWin32.XML",
+        "lib/net20/CommonWin32.dll"
+      ]
+    },
+    "ModernWPF/1.0.0": {
+      "sha512": "ny0fv3WlyfsPDB6e2W4iH5OD3lxlYNZPJNZStavnNi0QqjAy9wFDx/I/npxR6ytZsiIvmRKEx/YY+gk2KYDRMQ==",
+      "type": "package",
+      "path": "modernwpf/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40-Client/ModernWPF.XML",
+        "lib/net40-Client/ModernWPF.dll",
+        "lib/net40-Client/ModernWPF.pdb",
+        "modernwpf.1.0.0.nupkg.sha512",
+        "modernwpf.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "ModernWpf >= 0.9.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\maeli\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\maeli\\source\\repos\\WpfApp1\\WpfApp1.csproj",
+      "projectName": "WpfApp1",
+      "projectPath": "C:\\Users\\maeli\\source\\repos\\WpfApp1\\WpfApp1.csproj",
+      "packagesPath": "C:\\Users\\maeli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maeli\\source\\repos\\WpfApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\maeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "dependencies": {
+          "ModernWpf": {
+            "target": "Package",
+            "version": "[0.9.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "WpfApp1 dépend de ModernWPF (>= 0.9.4) mais ModernWPF 0.9.4 est introuvable. ModernWPF 1.0.0 a été résolu à la place.",
+      "libraryId": "ModernWPF",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'CommonWin32 1.1.4.2' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net9.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "CommonWin32",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'ModernWPF 1.0.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net9.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "ModernWPF",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    }
+  ]
+}

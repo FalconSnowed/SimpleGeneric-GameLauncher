@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "CommonWin32/1.1.4.2": {
+        "runtime": {
+          "lib/net20/CommonWin32.dll": {
+            "assemblyVersion": "1.1.4.2",
+            "fileVersion": "1.1.4.2"
+          }
+        }
+      },
+      "ModernWPF/1.0.0": {
+        "dependencies": {
+          "CommonWin32": "1.1.4.2"
+        },
+        "runtime": {
+          "lib/net40-Client/ModernWPF.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommonWin32/1.1.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x0SfXQJHEuReslRLZiGnqbuL0RFcA7k9TufDWDIlKff4mmel61VzDiUL0kOHZCAQb7r9TKxwuoceE02fPRIsww==",
+      "path": "commonwin32/1.1.4.2",
+      "hashPath": "commonwin32.1.1.4.2.nupkg.sha512"
+    },
+    "ModernWPF/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ny0fv3WlyfsPDB6e2W4iH5OD3lxlYNZPJNZStavnNi0QqjAy9wFDx/I/npxR6ytZsiIvmRKEx/YY+gk2KYDRMQ==",
+      "path": "modernwpf/1.0.0",
+      "hashPath": "modernwpf.1.0.0.nupkg.sha512"
+    }
+  }
+}
